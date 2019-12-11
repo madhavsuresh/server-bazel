@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package test;
+
+service Test {
+	rpc Test (TestReq) returns (TestResp) {}
+}
+
+message TestReq {}
+message TestResp {}
